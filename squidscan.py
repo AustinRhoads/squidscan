@@ -31,7 +31,9 @@ def parse_input():
 #print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="computer", width=120), 'magenta'))
 #print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="isometric1", width=120), 'magenta'))
 #print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="poison", width=120), 'magenta'))
-print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="cricket", width=120), 'magenta'))
+
+#print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="cricket", width=120), 'magenta'))
+print("\n" + colored(pyfiglet.figlet_format("SQUID SCAN", font="future", width=120), 'magenta'))
 targets = input("[*] Enter IP address(es) to scan (split multiple ip addresses with a comma): ")
 ports = int(input("[*] Enter how many ports you want to scan: "))
 parse_input()
